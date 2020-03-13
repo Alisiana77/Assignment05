@@ -20,35 +20,10 @@ function view(inventory) {
 
 // FUNCTION STORE INVENTORY
 function getInventory() {
-    // const tshirt = [], jeans = [], jackets = [], hat = [], socks = [];
+    
     let inventory = [];
 
-       
-    // tshirt.sku = 101;
-    // tshirt.product = "Tshirt";
-    // tshirt.quantity = 17;
-    // tshirt.cost = 24.99;
-
-    // jeans.sku = 102;
-    // jeans.product = "jeans";
-    // jeans.quantity = 25;
-    // jeans.cost = 44.99;
-
-    // jackets.sku = 103;
-    // jackets.product = "jackets";
-    // jackets.quantity = 11;
-    // jackets.cost = 49.99;
-
-    // hat.sku = 104;
-    // hat.product = "hat   ";
-    // hat.quantity = 22;
-    // hat.cost = 19.99;
-
-    // socks.sku = 105;
-    // socks.product = "socks";
-    // socks.quantity = 17;
-    // socks.cost = 14.99;
-
+   
     inventory[0] = [101, "Tshirt", 17, 24.99];
     inventory[1] = [102, "jeans", 25, 44.99];
     inventory[2] = [103, "jackets", 11, 49.99];
